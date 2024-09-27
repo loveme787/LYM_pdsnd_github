@@ -1,1 +1,8 @@
 .github/**
+# 忽略 data 文件夹中的所有 CSV 文件
+data/*.csv
+# 忽略所有临时文件
+*.tmp
+# 忽略所有编译输出文件
+*.pyc
+__pycache__/
